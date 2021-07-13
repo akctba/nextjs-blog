@@ -10,9 +10,9 @@ export default function Events() {
           <title>Potluck - my events</title>
         </Head>
 
-        <EventCard />
+        <EventCard eventData={{title:'evento A'}} />
         <br/>
-        <EventCard />
+        <EventCard eventData={{title:'evento B'}} />
         <br/>
       </Layout>
     )
