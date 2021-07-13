@@ -1,5 +1,9 @@
 .eventCard {
-    border: 1px solid black;
     padding: 1rem;
-    background-color: aliceblue;
+    backdrop-filter: blur(14px) saturate(130%);
+    -webkit-backdrop-filter: blur(14px) saturate(130%);
+    background-color: rgba(105, 85, 69, 0.25);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: white;
 }
